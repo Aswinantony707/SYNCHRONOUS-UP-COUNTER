@@ -1,16 +1,19 @@
+# NAME:S.ASWIN ANTONY
+# REF.NO:24001423
+
 ### SYNCHRONOUS-UP-COUNTER
 
-**AIM:**
+*AIM:*
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-**SOFTWARE REQUIRED:**
+*SOFTWARE REQUIRED:*
 
 Quartus prime
 
-**THEORY**
+*THEORY*
 
-**4 bit synchronous UP Counter**
+*4 bit synchronous UP Counter*
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
@@ -26,21 +29,30 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+*Procedure*
 
 /* write all the steps invloved */
 
-**PROGRAM**
+# PROGRAM
+ 
+![WhatsApp Image 2024-12-20 at 22 58 39_abd0abd2](https://github.com/user-attachments/assets/56ceb8d3-b3e8-414f-b42d-26b9ed3a65df)
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
 Developed by: RegisterNumber:
 */
 
-**RTL LOGIC UP COUNTER**
+# RTL LOGIC UP COUNTER
+![WhatsApp Image 2024-12-20 at 22 58 32_b757158a](https://github.com/user-attachments/assets/491e6175-bfe2-4965-a294-6c4775527761)
 
-**TIMING DIAGRAM FOR IP COUNTER**
 
-**TRUTH TABLE**
+# TIMING DIAGRAM FOR IP COUNTER
+![WhatsApp Image 2024-12-20 at 22 57 21_aa337027](https://github.com/user-attachments/assets/361acf96-1230-4a30-bdea-57f158a41023)
 
-**RESULTS**
+# TRUTH TABLE
+![WhatsApp Image 2024-12-20 at 22 58 06_7c82311d](https://github.com/user-attachments/assets/901ecd1f-5f7a-4cc6-88cc-5c6988a7bae9)
+
+
+# RESULTS
+Thus,implemented 4 bit synchronous up counter and validate functionality.
+
+
