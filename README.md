@@ -1,17 +1,18 @@
-# NAME:S.ASWIN ANTONY
-# REF.NO:24001423
+NAME:S.ASWIN ANTONY
 
-### SYNCHRONOUS-UP-COUNTER
+ REF.NO:24001423
 
-*AIM:*
+## EXP-11: SYNCHRONOUS-UP-COUNTER
+
+# AIM:
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-*SOFTWARE REQUIRED:*
+# SOFTWARE REQUIRED:
 
 Quartus prime
 
-*THEORY*
+# THEORY
 
 *4 bit synchronous UP Counter*
 
@@ -29,7 +30,7 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-*Procedure*
+# Procedure
 
 /* write all the steps invloved */
 
