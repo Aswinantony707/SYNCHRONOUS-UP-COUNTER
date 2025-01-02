@@ -32,16 +32,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 # Procedure
 
-1.Type the program in Quartus software.
-
-2.Compile and run the program.
-
-3.Generate the RTL schematic and save the logic diagram.
-
-4.Create nodes for inputs and outputs to generate the timing diagram.
-
-5.For different input combinations generate the timing diagram
-
+1.Launch Quartus on your computer and create a new project: Go to File → New Project Wizard. Specify the project name, directory, and top-level entity name. Create the synchronous up counter and implement the synchronous up counter by writing VHDL/Verilog code. Go to File → New → Select Verilog File. Compile the Project Click on Processing → Start Compilation. Fix any syntax or schematic errors if present. Simulate the Circuit: Go to Tools → University Program VWF. Define the inputs for CLK,out,rstn in the waveform editor. Run the simulation and observe the waveforms.
 
 
 # PROGRAM
