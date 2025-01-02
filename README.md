@@ -32,15 +32,25 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 # Procedure
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram
+
+PROGRAM:
+
 
 # PROGRAM
  
 ![WhatsApp Image 2024-12-20 at 22 58 39_abd0abd2](https://github.com/user-attachments/assets/56ceb8d3-b3e8-414f-b42d-26b9ed3a65df)
 
 
-Developed by: RegisterNumber:
-*/
+
 
 # RTL LOGIC UP COUNTER
 ![WhatsApp Image 2024-12-20 at 22 58 32_b757158a](https://github.com/user-attachments/assets/491e6175-bfe2-4965-a294-6c4775527761)
